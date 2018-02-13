@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="FIGURAS GEOM&#xc9;TRICAS"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="33" green="0" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel5" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <Component id="jPanel5" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <Component id="jPanel4" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder>
+              <Color PropertyName="color" blue="0" green="0" red="cc" type="rgb"/>
+            </MatteColorBorder>
+          </Border>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jlbCordenaX" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbCordenaY" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbNombreCirculo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="jlbRadio" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtCoordenadaEnX" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <Component id="txtRadio" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <Component id="txtCoordenadaEnY" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="txtNombreDelCirculo" min="-2" pref="92" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                          <Component id="jbtAñadirCirculo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
+                          <Component id="jlbTCirculo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jlbTCirculo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbRadio" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtRadio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbCordenaX" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCoordenadaEnX" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbCordenaY" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCoordenadaEnY" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbNombreCirculo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNombreDelCirculo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jbtAñadirCirculo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbRadio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Radio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbCordenaX">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coderna x"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbCordenaY">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cordena Y"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbNombreCirculo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombre de la figura"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbTCirculo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CIRCULO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtA&#xf1;adirCirculo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AGREGAR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtA&#xf1;adirCirculoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRadio">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtRadioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenadaEnX">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenadaEnY">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCoordenadaEnYActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNombreDelCirculo">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder>
+              <Color PropertyName="color" blue="0" green="0" red="ff" type="rgb"/>
+            </MatteColorBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jlbTCuadrado" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jlbVertice1Y" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbVertice3X" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbVertice3Y" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbNombreRectangulo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbVertice1X" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="txtCoordenada3EnX" alignment="0" pref="129" max="32767" attributes="0"/>
+                                  <Component id="txtNombreDelRectangulo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtCoordenada3EnY" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtCoordenada1EnY" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="txtCoordenada1EnX" min="-2" pref="129" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                          <Component id="btnAñadirCuadrado" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="37" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Component id="jlbTCuadrado" min="-2" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jlbVertice1X" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtCoordenada1EnX" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jlbVertice1Y" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtCoordenada1EnY" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jlbVertice3X" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtCoordenada3EnX" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbVertice3Y" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCoordenada3EnY" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbNombreRectangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNombreDelRectangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+                  <Component id="btnAñadirCuadrado" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbVertice1X">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 1 X"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertice1Y">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 1 y"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertice3X">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 3 X"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertice3Y">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 3 Y"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbNombreRectangulo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombre de la figura"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada1EnX">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada1EnY">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada3EnX">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCoordenada3EnXActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada3EnY">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNombreDelRectangulo">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnA&#xf1;adirCuadrado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AGREGAR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnA&#xf1;adirCuadradoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbTCuadrado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CUADRADO"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="33" green="0" red="cc" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                          <Component id="btnMoverFiguras" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jblMoverX" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jblMoverY" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtMoverEnY" min="-2" pref="100" max="-2" attributes="0"/>
+                              <Component id="txtMoverEnX" min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="jlbMovimientoF" min="-2" pref="142" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbMovimientoF" min="-2" pref="25" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblMoverX" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMoverEnX" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblMoverY" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMoverEnY" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="btnMoverFiguras" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbMovimientoF">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="MOVIMIENTO DE FIGURAS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblMoverX">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Moven en X"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblMoverY">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mover en Y"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMoverEnX">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMoverEnY">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMoverEnYActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnMoverFiguras">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="MOVER"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMoverFigurasActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="33" green="0" red="cc" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="199" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="199" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                          <Component id="jbtVisualizar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="24" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jbtVisualizar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jScrollPane2" pref="152" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jbtVisualizar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="VISUALIZAR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtVisualizarActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtPresentar">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtPresentar1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel5">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="0" green="0" red="cc" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jlbTTriangulo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="btnAñadirTriangulo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jlbVertic2X" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jlbVertic2Y" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jlbVertic3X" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jlbVertic3Y" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jlbVertic1X" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="jlbNombreTriangulo" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtCoordenada2Y" alignment="1" pref="100" max="32767" attributes="0"/>
+                                      <Component id="txtCoordenada2X" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtCoordenada1X" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtCoordenada3X" max="32767" attributes="0"/>
+                                      <Component id="txtCoordenada3Y" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtNombreDelTriangulo" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jlbVertic1Y" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="35" max="32767" attributes="0"/>
+                                  <Component id="txtCoordenada1Y" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jlbTTriangulo" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="jlbVertic1X" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtCoordenada1X" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtCoordenada1Y" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbVertic1Y" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtCoordenada2X" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbVertic2X" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtCoordenada2Y" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbVertic2Y" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbVertic3X" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCoordenada3X" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbVertic3Y" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCoordenada3Y" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtNombreDelTriangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbNombreTriangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnAñadirTriangulo" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbTTriangulo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TRIANGULO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertic1X">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 1 X"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertic1Y">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 1 Y"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertic2X">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 2 X"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertic2Y">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 2 Y"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertic3X">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 3 X"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbVertic3Y">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Coordenada 3 Y"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnA&#xf1;adirTriangulo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AGREGAR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnA&#xf1;adirTrianguloActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada1X">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada1Y">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCoordenada1YActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada2X">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada2Y">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada3X">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCoordenada3Y">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNombreDelTriangulo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbNombreTriangulo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombre de la figura"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
